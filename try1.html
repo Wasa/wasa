@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحة هبوط</title>
+    <link rel="stylesheet" href="styles.css"> <!-- رابط لملف الـ CSS -->
+</head>
+<body>
+    <header>
+        <!-- شريط العنوان أو شعار الصفحة -->
+        <h1>مرحبا بكم في صفحة هبوطنا!</h1>
+    </header>
+    
+    <main>
+        <!-- المحتوى الرئيسي للصفحة -->
+        <section>
+            <h2>ما الذي نقدمه لك؟</h2>
+            <p>نص وصفي عن خدماتنا أو المنتجات التي نقدمها.</p>
+        </section>
+        
+        <section>
+            <h2>التسجيل / الاشتراك</h2>
+            <!-- نموذج لجمع بيانات الزوار -->
+            <form action="process.php" method="POST">
+                <input type="text" name="name" placeholder="الاسم الكامل" required>
+                <input type="email" name="email" placeholder="البريد الإلكتروني" required>
+                <button type="submit">اشترك الآن</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <!-- التواصل الاجتماعي أو معلومات الاتصال -->
+        <p>تابعنا على <a href="#">تويتر</a> و <a href="#">فيسبوك</a></p>
+    </footer>
+</body>
+</html>
